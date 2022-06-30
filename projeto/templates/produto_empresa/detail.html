@@ -1,0 +1,26 @@
+{% extends 'head.html' %}
+
+{% block content %}
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h1>Produto Empresa</h1>
+            </div>
+            <div class="card-body">
+                <strong></strong>
+                <strong>Empresa</strong>
+                <p>{{ produto.produto }}</p>
+                <strong>Empresa</strong>
+                <p>{{ produto.empresa }}</p>
+                <a href="/produto/produto_empresa"><i></i><button type = "button"
+                    class = "btn mb-1 btn-success" 
+                    >Voltar</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
